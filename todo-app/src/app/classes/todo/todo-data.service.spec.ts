@@ -2,6 +2,8 @@ import {TestBed, async, inject} from '@angular/core/testing';
 import {Todo} from './todo';
 import {TodoDataService} from './todo-data.service';
 
+// TODO: practice and learn more about unit testing with angular
+
 describe('TodoDataService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
