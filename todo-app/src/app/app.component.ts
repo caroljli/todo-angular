@@ -11,6 +11,8 @@ import { TodoDataService } from './classes/todo/todo-data.service';
 export class AppComponent {
   newTodo: Todo = new Todo();
 
+  // Ask Angular DI system to inject the dependency associated with the
+  // dependency injection token and assign it to a property, todoDataService
   constructor(private todoDataService: TodoDataService) {}
 
   addTodo() {
